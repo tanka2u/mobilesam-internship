@@ -1,11 +1,11 @@
 Internship Take Home Assignment - Software Engineer:
 
-I made microservices for image processing. I have windows, so, I am writing accouredingly.
+I made microservices for image processing. I have windows, so, I am writing accordingly.
 
 How to run the code:
 
 1. Activate the virtual Environment.
-   sourc venv/Scripts/activate
+   source venv/Scripts/activate
 2. install the fastapi and run:
    uvicorn app:app --reload(It will starts the FastAPI server)
 
