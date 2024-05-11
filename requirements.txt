@@ -2,5 +2,7 @@ torch
 torchvision
 timm
 opencv-python
+fastapi
+uvicorn
 git+https://github.com/dhkim2810/MobileSAM.git
 matplotlib

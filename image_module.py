@@ -53,16 +53,14 @@ def segment_everything(
     )
     return fig
 
+# if __name__ == "__main__":
+#     input_path = "resources/dog.jpg"
+#     output_path = "generated/output.png"
 
+#     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-if __name__ == "__main__":
-    input_path = "resources/dog.jpg"
-    output_path = "generated/output.png"
-
-    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-
-    image = Image.open(input_path).convert("RGB")
-    fig = segment_everything(
-        image=image
-    )
-    fig.save(output_path)
+#     image = Image.open(input_path).convert("RGB")
+#     fig = segment_everything(
+#         image=image
+#     )
+#     fig.save(output_path)
